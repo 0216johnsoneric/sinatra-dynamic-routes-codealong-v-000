@@ -11,7 +11,7 @@ class App < Sinatra::Base
   #   "Goodbye"
   # end
   get "/" do
-
+    "Eric"
   end
   end
   # This is a sample dynamic route.
