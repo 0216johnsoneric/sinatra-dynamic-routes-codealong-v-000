@@ -13,7 +13,7 @@ class App < Sinatra::Base
   get "/" do
     "Eric"
   end
-  
+
   # This is a sample dynamic route.
   get "/hello/:name" do
     @user_name = params[:name]
