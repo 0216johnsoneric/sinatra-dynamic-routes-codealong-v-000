@@ -24,6 +24,7 @@ class App < Sinatra::Base
   # Code your final two routes here:
 
   get "/multiply/:num1/:num2" do
+    binding.pry
     @number = params[:num1*:num2]
     "#{@number}"
   end
